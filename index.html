@@ -27,8 +27,29 @@
         }
 
         button {
-            font-size: 48px;
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
         }
+
+        .circular--square {
+            border-radius: 50%;
+            font-size: 64px;
+            margin-top: 50px;
+            margin-bottom: 40px;
+
+        }
+
+        .btn {
+            font-size: 14px;
+            border-radius: 17px;
+            background-color: black;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
     </style>
 </head>
 
@@ -52,7 +73,12 @@
             <h1>
                 Virtually Try-On
             </h1>
-            <button><i class="fa fa-camera"></i></button>
+           
+        </div>
+        <div class="container">
+            <button class="circular--square"><i class="fa fa-camera"></i></button>
+            <button class="btn">Upload From your Photos</button>
+            <button class="btn btn-two">Try live with your camera</button>
         </div>
 
     </main>
